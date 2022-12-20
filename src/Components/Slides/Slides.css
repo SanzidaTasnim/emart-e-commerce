@@ -13,7 +13,7 @@ button.slick-arrow.slick-prev{
    background-color: teal;
    color: teal;
    z-index: 2;
-   transform: translate(50px, -116px);
+   transform: translate(50px, -100px);
 }
 ul.slick-dots{
    display: none !important;

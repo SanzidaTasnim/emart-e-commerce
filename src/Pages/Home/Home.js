@@ -1,8 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 import Categories from '../../Components/Categories/Categories';
+import Footer from '../../Components/Footer/Footer';
 import Announcement from '../../Components/Navbar/Announcement';
 import Navbar from '../../Components/Navbar/Navbar';
+import Newsletter from '../../Components/Newsletter/Newsletter';
+import Products from '../../Components/Products/Products';
 import Slider from '../../Components/Slides/Slides';
 
 const Home = () => {
@@ -22,6 +25,9 @@ const Home = () => {
       </Container>
       <Slider />
       <Categories />
+      <Products />
+      <Newsletter />
+      <Footer />
     </div>
   );
 };

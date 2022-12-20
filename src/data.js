@@ -36,3 +36,38 @@ export const category = [
       img: './images/category3.jpg'
    },
 ]
+
+export const productItems = [
+   {
+      id: 1,
+      img: './images/product1.png'
+   },
+   {
+      id: 2,
+      img: './images/product8.png'
+   },
+   {
+      id: 3,
+      img: './images/product2.png'
+   },
+   {
+      id: 4,
+      img: './images/product7.png'
+   },
+   {
+      id: 5,
+      img: './images/product3.png'
+   },
+   {
+      id: 6,
+      img: './images/product6.png'
+   },
+   {
+      id: 5,
+      img: './images/product4.png'
+   },
+   {
+      id: 6,
+      img: './images/product5.png'
+   }
+]
