@@ -18,3 +18,21 @@ export const sliderItems = [
       description: "Don't Compromise with your style! Get flat 30% off for new arrivals."
    }
 ]
+
+export const category = [
+   {
+      id: 1,
+      title: 'SHIRT STYLE',
+      img: './images/category1.jpg'
+   },
+   {
+      id: 2,
+      title: 'LOUNGEWEAR',
+      img: './images/category2.jpg'
+   },
+   {
+      id: 1,
+      title: 'JACKETS',
+      img: './images/category3.jpg'
+   },
+]
