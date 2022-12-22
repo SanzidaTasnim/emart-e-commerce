@@ -4,6 +4,7 @@ import logo from './../../logo/logo.png';
 import SearchIcon from '@mui/icons-material/Search';
 import { Badge } from '@mui/material';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import { medium } from '../../Responsive';
 
 const Navbar = () => {
   const Main = styled.div`
@@ -28,6 +29,7 @@ const Navbar = () => {
   `;
   const SearchContainer = styled.div`
     position: relative;
+    ${medium({display: 'none'})}
   `;
   const Input = styled.input`
     width: 250px;
@@ -43,6 +45,7 @@ const Navbar = () => {
   const Right = styled.div`
     flex: 1;
     text-align: end;
+    ${medium({textAlign: 'start',marginLeft: '120px'})}
   `;
   const RightButton = styled.button`
     font-size: 16px;

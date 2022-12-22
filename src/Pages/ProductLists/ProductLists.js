@@ -5,6 +5,7 @@ import Announcement from '../../Components/Navbar/Announcement';
 import Navbar from '../../Components/Navbar/Navbar';
 import Newsletter from '../../Components/Newsletter/Newsletter';
 import Products from '../../Components/Products/Products';
+import { medium } from '../../Responsive';
 
 const ProductLists = () => {
   const NavWrap = styled.div`
@@ -18,6 +19,7 @@ const ProductLists = () => {
   const Container = styled.div`
     width: 1300px;
     margin: 0 auto;
+    ${medium({width: '95%'})}
   `;
   const Title = styled.h1`
     padding: 30px 0;

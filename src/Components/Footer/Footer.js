@@ -8,6 +8,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EmailIcon from '@mui/icons-material/Email';
+import { medium } from '../../Responsive';
 
 const Footer = () => {
    const Container = styled.div`
@@ -15,6 +16,7 @@ const Footer = () => {
       margin: 0 auto;
       display: flex;
       padding: 50px 0;
+      ${medium({width: '95%'})}
    `
    const Left = styled.div`
       flex: 1;

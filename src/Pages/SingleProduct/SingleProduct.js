@@ -5,6 +5,7 @@ import Footer from '../../Components/Footer/Footer';
 import Announcement from '../../Components/Navbar/Announcement';
 import Navbar from '../../Components/Navbar/Navbar';
 import Newsletter from '../../Components/Newsletter/Newsletter';
+import { medium } from '../../Responsive';
 import productImg from './../../logo/product3.png';
 
 const SingleProduct = () => {
@@ -20,6 +21,7 @@ const SingleProduct = () => {
     width: 1300px;
     margin: 0 auto;
     display: flex;
+    ${medium({width: '90%'})}
   `;
   const Left = styled.div`
     flex: 1;

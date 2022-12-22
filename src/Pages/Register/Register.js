@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Announcement from '../../Components/Navbar/Announcement';
 import Navbar from '../../Components/Navbar/Navbar';
+import { medium } from '../../Responsive';
 
 const Register = () => {
   const Container = styled.div`
@@ -31,6 +32,7 @@ const Register = () => {
     flex: 1;
     color: #fff;
     padding: 80px 30px;
+    ${medium({padding: '30px 20px'})}
   `;
   const Right = styled.div`
     flex: 1;

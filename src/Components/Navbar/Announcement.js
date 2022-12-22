@@ -4,6 +4,7 @@ import styled from 'styled-components'
 const Announcement = () => {
    const Headline = styled.div`
       height: 30px;
+      width: 100%;
       line-height: 30px;
       background-color: teal;
       color: #fff;

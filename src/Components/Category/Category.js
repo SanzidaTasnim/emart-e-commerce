@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { medium } from '../../Responsive'
 
 const Category = ({item}) => {
    const Wrapper = styled.div`
@@ -22,7 +23,6 @@ const Category = ({item}) => {
       width: 100%;
       height: 100%;
       object-fit: cover;
-
    `
    const ContentContainer = styled.div`
       position: absolute;
@@ -30,12 +30,12 @@ const Category = ({item}) => {
       left: 50%;
       transform: translate(-50%,-50%);
       text-align: center;
-
    `
    const Title = styled.h3`
       font-size: 33px;
       color: #fff;
       margin-bottom: 15px;
+      ${medium({fontSize: '26px'})}
    `
 
    const Button = styled.button`

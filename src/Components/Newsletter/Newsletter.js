@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import SendIcon from '@mui/icons-material/Send';
+import { medium } from '../../Responsive';
 
 const Newsletter = () => {
   const Container = styled.div`
@@ -9,11 +10,13 @@ const Newsletter = () => {
     background-color: #f1f1f1;
     text-align: center;
     padding-bottom: 100px;
+    ${medium({width: '100%'})}
   `;
   const Title = styled.h1`
     font-size: 60px;
     padding-top: 100px;
     padding-bottom: 25px;
+    ${medium({fontSize: '40px'})}
   `;
   const Desc = styled.div`
     font-size: 25px;
